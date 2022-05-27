@@ -1,6 +1,6 @@
 <div align="center">
 
-# FirstSwiftApp
+# FirstSwiftApp 📱
 
 # Discovery complete ✅ Swift is a very nice language and I really enjoyed it! ✨
   
@@ -10,7 +10,7 @@
 
 </div>
 
-~ Technologies used 💻
+# Technologies used 💻
 
 ![Swift](https://img.shields.io/badge/-swift-05122A?style=flat&logo=swift)&nbsp;
 
