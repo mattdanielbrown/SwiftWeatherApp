@@ -3,7 +3,7 @@
 //  SwiftUI-Weather
 //
 //  Created by Sammy Merazga on 26/05/2022.
-//  26:43
+//
 
 import SwiftUI
 
@@ -35,16 +35,15 @@ struct ContentView: View {
                                    imageName: "sun.max.fill",
                                    temperature: 25)
                 }
+                
                 Spacer()
                 
                 Button {
                     print("Tapped")
                 } label: {
-                Text("Change Day time")
-                        .frame(width: 200, height: 50)
-                        .background(Color.white)
-                        .font(.system(size: 20, weight: .bold, design: .default))
-                        .cornerRadius(10)
+                    WeatherButton(title: "Change Day Time",
+                                  textColor: .blue,
+                                  backgroundColor: .white)
                 }
                 
                 Spacer()
